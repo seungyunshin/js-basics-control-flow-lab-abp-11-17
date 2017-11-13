@@ -24,13 +24,13 @@ let tip;
 
 switchOnCharmFromTip = switch (tip()){
   case "generous":
-    response = "Thank you so much.";
+    return = "Thank you so much.";
     break;
   case "not as generous":
-    response = "Thank you.";
+    return = "Thank you.";
     break;
   default:
-    response = "Bye.";
+    return = "Bye.";
     break;
 }
 switchOnCharmFromTip;
