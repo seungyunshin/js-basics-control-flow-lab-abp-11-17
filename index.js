@@ -34,4 +34,4 @@ switch (tip){
     break;
   }
 }
- switchOnCharmFromTip (generous);
+ switchOnCharmFromTip ('generous');
