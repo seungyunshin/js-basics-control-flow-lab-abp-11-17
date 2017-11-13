@@ -22,7 +22,7 @@ function ternaryCheckCity(city){
 let switchOnCharmFromTip;
 let tip;
 
-switch (tip){
+switch (switchOnCharmFromTip()){
   case "generous":
     switchOnCharmFromTip = "Thank you so much.";
     break;
