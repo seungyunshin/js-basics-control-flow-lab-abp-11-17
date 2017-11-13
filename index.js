@@ -22,15 +22,15 @@ function ternaryCheckCity(city){
 let switchOnCharmFromTip;
 let tip;
 
-switch (switchOnCharmFromTip()){
+switchOnCharmFromTip = switch (switchOnCharmFromTip()){
   case "generous":
-    respond = "Thank you so much.";
+    switchOnCharmFromTip = "Thank you so much.";
     break;
   case "not as generous":
-    respond = "Thank you.";
+    switchOnCharmFromTip = "Thank you.";
     break;
   default:
-    respond = "Bye.";
+    switchOnCharmFromTip = "Bye.";
     break;
 }
 switchOnCharmFromTip;
