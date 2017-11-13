@@ -33,4 +33,3 @@ switch (tip){
     break;
   }
 }
-switchOnCharmFromTip;
