@@ -19,8 +19,6 @@ function ternaryCheckCity(city){
   }
 }
 
-let response;
-let tip;
 
 function switchOnCharmFromTip(tip){
 switch (tip){
